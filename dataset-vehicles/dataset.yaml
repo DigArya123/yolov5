@@ -1,0 +1,8 @@
+train: /content/gdrive/MyDrive/yolov5_vehicle_detection/dataset-vehicles/images/train  # train images (relative to 'path')
+val: /content/gdrive/MyDrive/yolov5_vehicle_detection/dataset-vehicles/images/val # val images (relative to 'path')
+
+
+# Classes 
+nc: 5 
+ # number of classes 
+ names: [ 'Car', 'Motorcycle', 'Truck', 'Bus', 'Bicycle']  # class names
